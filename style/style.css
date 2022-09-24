@@ -27,7 +27,7 @@ a:hover {
 }
 
 .button-1 {
-  background-color: #F44;
+  background-color: #4F4;
   font-size: 50px;
   height: 500px;
   width: 1000px;
@@ -36,7 +36,7 @@ a:hover {
 .button-1:hover {
   cursor: pointer; 
   transition: 0.35s;
-  background-color: #4F4;
+  background-color: #F44;
 }
 
 .button {
