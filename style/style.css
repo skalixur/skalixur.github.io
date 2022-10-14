@@ -39,11 +39,13 @@ a:hover {
   cursor: pointer;
   background-color: #ddd;
   transition: 0.2s;
-  margin: 0 -40px;
+  margin: 0 -48px;
   padding: 10px 50px;
 }
 
 .navbar-link, .navbar-link:hover {
+  padding: 0 50px;
+  margin: 0 -48px;
   color: #000;
   text-decoration: none;
 }
