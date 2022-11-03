@@ -40,6 +40,7 @@
 }
 
 :root {
+  --lower-text-size-limit: 5px;
   --main-card-width: 60vw;
   --bg-color: #161e26;
   --bg-line-color: #262934;
@@ -102,7 +103,7 @@ a:hover {
 .banner {
   font-family: 'normal-font';
   font-weight: 200;
-  font-size: 12vmin;
+  font-size: minmax(var(--lower-text-size-limit), 12vmin);
 
   display: flex;
   justify-content: center;
@@ -131,7 +132,7 @@ a:hover {
 
   font-family: normal-font, sans-serif;
   font-weight: 200;
-  font-size: 2vmin;
+  font-size: minmax(var(--lower-text-size-limit), 2vmin);
 
   color: white;
   border: 1px solid var(--line-color);
@@ -152,19 +153,19 @@ a:hover {
 }
 
 .card-title {
-  font-size: 3.33vmin;
+  font-size: minmax(var(--lower-text-size-limit), 3.33vmin);
 }
 
 .small {
-  font-size: 1.11vmin;
+  font-size: minmax(var(--lower-text-size-limit), 1.11vmin);
 }
 
 .beeeg {
-  font-size: 2.5vmin;
+  font-size: minmax(var(--lower-text-size-limit), 2.5vmin);
 }
 
 .beeeeg {
-  font-size: 2.77vmin;
+  font-size: minmax(var(--lower-text-size-limit), 2.77vmin);
 }
 
 .highlighted {
