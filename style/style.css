@@ -71,7 +71,7 @@ a,
 a:visited {
   transition: 0.1s;
   background-color: var(--anchor-background);
-  padding: 2px 3px;
+  padding: 0px 3px;
   margin: -2px -3px;
   border-radius: 3px;
   color: var(--accent);
@@ -82,6 +82,7 @@ a:hover {
   transition: 0.1s;
   background-color: var(--anchor-background-hover);
   color: var(--accent-hover);
+  text-decoration: underline 3px;
 }
 
 .horizontal-line {
@@ -107,7 +108,7 @@ a:hover {
   display: flex;
   justify-content: center;
 
-  padding-top: 0.75em;
+  padding-top: 0.5em;
 
   translate: -100% 0;
 
