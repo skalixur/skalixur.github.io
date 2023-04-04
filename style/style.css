@@ -82,7 +82,7 @@ a:hover {
   transition: 0.1s;
   background-color: var(--anchor-background-hover);
   color: var(--accent-hover);
-  text-decoration: underline 3px;
+  text-decoration: underline 0.075em;
 }
 
 .horizontal-line {
